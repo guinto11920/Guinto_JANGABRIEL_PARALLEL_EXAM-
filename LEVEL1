@@ -1,13 +1,16 @@
-Differentiate between SIMD and MIMD? Explain. 
+1. Differentiate between SIMD and MIMD? Explain. 
+
+      Single Instruction, Multiple Data (SIMD) is type of parallel computer single instruction all processing units execute the same
+instruction at any given clock cycle multiple data each processing unit can operate on a different data element, best suited for specialized
+problems characterized by a high degree of regularity, such as graphics/image processing. Synchronous and deterministic execution.
+Most modern computers, particularly those with graphics processor units (GPUs) employ SIMD instructions and execution units. Multiple Instruction,
+Multiple Data (MIMD) is also a type of parallel computer multiple instruction: Every processor may be executing a different instruction stream.
+Multiple Data: Every processor may be working with a different data stream, execution can be synchronous or asynchronous, deterministic or 
+non-deterministic currently, the most common type of parallel computer - most modern supercomputers fall into this category.
+most current supercomputers, networked parallel computer clusters and "grids", multi-processor SMP computers, multi-core PCs.
 
 
-
-
-
-
-
-
- Illustrate and explain what a Von Neuman Architecture is.
+ 4. Illustrate and explain what a Von Neuman Architecture is.
  
  
  Von Neumann architecture is the design upon which many general purpose computers are based. 
