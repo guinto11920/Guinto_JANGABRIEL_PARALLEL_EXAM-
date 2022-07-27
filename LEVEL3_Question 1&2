@@ -1,0 +1,17 @@
+1. Differentiate between Multiprocessing and Multithreading. Explain.
+
+      Multithreading refers to the ability of a processor to execute multiple threads concurrently, 
+where each thread runs a process. Whereas multiprocessing refers to the ability of a system to
+run multiple processors concurrently, where each processor can run one or more threads.Multithreading 
+or multiple threads share the same code, data, and files but runon a different register and stack. 
+Multiprocessing multiplies a single processorreplicating the code, data, and files, which incurs more overhead.
+
+
+
+2. Explain the difference between Serial Computing and Parallel Computing. .
+
+      Serial Computing software has been written for serial computation and a problem is broken into a discrete series of instructions
+Instructions are executed sequentially one after another then executed on a single processor, only one instruction may execute at
+any moment in time. Parallel Computing is the simultaneous use of multiple compute resources to solve a computational problem a 
+problem is broken into discrete parts that can be solved concurrently each part is further broken down to a series of instructions
+Instructions from each part execute simultaneously on different processors an overall control coordination mechanism is employed
