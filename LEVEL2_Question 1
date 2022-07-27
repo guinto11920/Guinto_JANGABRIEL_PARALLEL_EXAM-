@@ -1,0 +1,10 @@
+How does parallel programming/computing works? What do you think
+will be the advantage of utilizing parallel approach?
+
+
+      In the simplest sense, parallel computing is the simultaneous use of multiple compute resources to solve a computational problem
+a problem is broken into discrete parts that can be solved concurrently, each part is further broken down to a series of instructions
+the advantage of utilizing parallel approach is save time and money throwing more resources at a task will shorten its time to completion,
+with potential cost savings. parallel computers can be built from cheap, commodity components, solve larger more complex problemmany 
+problems are so large or complex that it is impractical orimpossible to solve them on a single computer, especially given limited computer
+memory.
