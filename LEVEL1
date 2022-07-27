@@ -1,0 +1,30 @@
+Differentiate between SIMD and MIMD? Explain. 
+
+
+
+
+
+
+
+
+ Illustrate and explain what a Von Neuman Architecture is.
+ 
+ 
+ Von Neumann architecture is the design upon which many general purpose computers are based. 
+ The key elements of von Neumann architecture aredata and instructions are both stored as binary digits
+ data and instructions are both stored in primary storage
+ instructions are fetched from memory one at a time and in order (serially)
+ the processor decodes and executes an instruction, before cycling around to fetch the next instruction
+ the cycle continues until no more instructions are available
+ 
+                            
+                            
+                    ============================================        
+ Input>>>>>>>>>>>>> =   Cpu Contro Unit  Arithmetic/logic Unit = >>>>>>>> Output
+                    ============================================ 
+                                        / \
+                                         |
+                                         |                             
+                                         |
+                                        \ /
+                                      Memory
